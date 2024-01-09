@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "KBNU RANCAEKEK",
-  description: "Dibuat dengan Cinta",
+  description: "Dibuat dengan Cinta 2024",
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         `}
       >
         <Navbar />
-        <div className="mx-auto py-20">{children}</div>
+        <div className="flex mx-4 dekstop:mx-12 py-20">{children}</div>
         <Footer />
       </body>
     </html>

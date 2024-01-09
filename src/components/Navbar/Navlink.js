@@ -19,7 +19,7 @@ function Navlink() {
       linkPath: "/lembaga",
     },
     {
-      linkName: "Warta",
+      linkName: "Agenda",
       linkPath: "/#",
     },
     {
@@ -37,7 +37,7 @@ function Navlink() {
               href={`${link.linkPath}`}
               className={`link ${
                 pathname === link.linkPath
-                  ? "font-semibold text-sm text-emerald-50"
+                  ? "font-semibold text-sm text-emerald-50 rounded bg-emerald-700 px-2 py-1"
                   : "font-light text-sm text-slate-50"
               }`}
             >
